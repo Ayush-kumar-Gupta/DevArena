@@ -1,4 +1,13 @@
 $kind: http-request
-url: ""
+url: localhost:3000/user
 method: GET
+body:
+  type: json
+  content: "{\r
+
+    \    \"emailId\" : \"ayush@gmail.com\"\r
+
+    \r
+
+    }"
 order: 2000

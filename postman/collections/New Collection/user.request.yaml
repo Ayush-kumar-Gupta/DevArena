@@ -1,0 +1,8 @@
+$kind: http-request
+description: ""
+url: localhost:3000/user
+method: PATCH
+body:
+  type: json
+  content: ""
+order: 4000
